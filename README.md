@@ -63,7 +63,7 @@ Go to the bundle's details inside of the console and have a look at the _Last Mo
 
 If you type `rsa:endpoints` you'll see you now have an endpoint.
 
-Let's request this service: (http://localhost:8181/cxf/sample/foo/HelloWorld)[http://localhost:8181/cxf/sample/foo/HelloWorld].
+Let's request this service: [http://localhost:8181/cxf/sample/foo/HelloWorld](http://localhost:8181/cxf/sample/foo/HelloWorld).
 
 One interesting feature of karaf is that it allows you to watch for updates of your bundles. Let's ask karaf to install a new version of the snapshot whenever a new one is built. Replace `[bundle-id]` with the id of your bundle's artifact.
 
