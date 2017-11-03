@@ -54,7 +54,7 @@ First build the project using `mvn install`. A snapshot of this artifact is now 
 And using the command below, you're going to deploy this artifact to the server (the `-s` option asks karaf to start the bundle as well).
 
 ```
-bundle:install -s mvn:sample/karaf-sample-rest-service/0.0.1-SNAPSHOT
+bundle:install -s mvn:com.imolczek.school.karaf.sample/karaf-sample-rest-service/0.0.1-SNAPSHOT
 ```
 
 The artifact will get its own bundle id. You can review it again using the `bundle:list` command or have a look at the [web console](http://localhost:8181/system/console/bundles).

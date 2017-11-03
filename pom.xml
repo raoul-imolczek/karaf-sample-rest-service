@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sample</groupId>
+    <groupId>com.imolczek.school.karaf.sample</groupId>
     <artifactId>karaf-sample-rest-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>

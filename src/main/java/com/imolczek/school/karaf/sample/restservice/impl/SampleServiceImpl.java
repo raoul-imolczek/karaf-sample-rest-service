@@ -1,8 +1,8 @@
-package sample.service.impl;
+package com.imolczek.school.karaf.sample.restservice.impl;
 
 import org.osgi.service.component.annotations.Component;
 
-import sample.service.SampleService;
+import com.imolczek.school.karaf.sample.restservice.SampleService;
 
 @Component (
 		immediate = true,

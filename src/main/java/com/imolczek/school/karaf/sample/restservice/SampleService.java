@@ -1,4 +1,4 @@
-package sample.service;
+package com.imolczek.school.karaf.sample.restservice;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
