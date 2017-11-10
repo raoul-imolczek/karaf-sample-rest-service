@@ -8,7 +8,7 @@ import com.imolczek.school.karaf.sample.restservice.SampleService;
 		immediate = true,
 		name = "SampleService",
 		property = {
-				"service.exported.interfaces=sample.service.SampleService", 
+				"service.exported.interfaces=com.imolczek.school.karaf.sample.restservice.SampleService", 
 				"service.exported.configs=org.apache.cxf.rs", 
 				"org.apache.cxf.rs.address=/sample"
 		}
