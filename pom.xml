@@ -5,7 +5,7 @@
 
     <groupId>sample</groupId>
     <artifactId>karaf-sample-rest-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>bundle</packaging>
 
     <name>karaf-sample-rest-service</name>
