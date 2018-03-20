@@ -2,7 +2,7 @@ language: java
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-  file: /home/travis/.m2/repository/sample/karaf-sample-rest-service/0.0.1/karaf-sample-rest-service-0.0.1.jar
+  file: /home/travis/.m2/repository/sample/karaf-sample-rest-service/0.0.3/karaf-sample-rest-service-0.0.3.jar
   skip_cleanup: true
   on:
     tags: true
